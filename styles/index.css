@@ -26,6 +26,7 @@ p {
   flex-direction: column;
   background-color: hsl(0, 0%, 100%);
   border-radius: 10px;
+  margin: 20px;
 }
 
 .card-description {
@@ -37,4 +38,18 @@ p {
   width: 100%;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+}
+
+#discount-price {
+  color: hsl(158, 36%, 37%);
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.cart {
+  display: block;
+  background-color: hsl(158, 36%, 37%);
+  width: 100%;
+  margin: auto;
+  color: hsl(0, 0%, 100%);
 }/*# sourceMappingURL=index.css.map */
