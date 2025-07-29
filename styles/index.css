@@ -39,6 +39,7 @@ p {
 }
 .card-description p {
   font-family: montserrat;
+  line-height: 20px;
 }
 
 .prices {
@@ -58,6 +59,10 @@ p {
   color: hsl(158, 36%, 37%);
   font-size: 2em;
   font-weight: 700;
+}
+
+#og-price {
+  text-decoration: line-through;
 }
 
 #perfume {
