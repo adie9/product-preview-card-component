@@ -23,6 +23,7 @@ p {
     background-color: hsl(0, 0%, 100%);
     border-radius: 10px;
     margin: 20px;
+    font-family: Fraunces;
 }
 
 .card-description {
@@ -31,6 +32,10 @@ p {
     display: flex;
     flex-direction: column;
     gap: 15px;
+
+    p {
+        font-family: montserrat;
+    }
 }
 
 .prices {
@@ -56,11 +61,18 @@ p {
 
 }
 
+#perfume {
+    font-family: montserrat;
+}
+
 .cart {
     display: block;
     background-color: hsl(158, 36%, 37%);
     width: 100%;
     margin: auto;
     color: hsl(0, 0%, 100%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
     
 }
