@@ -32,6 +32,16 @@ p {
 .card-description {
   margin: 10px;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.prices {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
 }
 
 #perfume_image {
