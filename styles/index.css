@@ -1,3 +1,5 @@
+/* Primary Colors */
+/* Neutral Colors */
 * {
   margin: 0;
   padding: 0;
@@ -15,6 +17,7 @@
 body {
   font-family: "Montserrat";
   background-color: hsl(30, 38%, 92%);
+  font-size: 1em;
 }
 
 p {
@@ -40,6 +43,7 @@ p {
 .card-description p {
   font-family: montserrat;
   line-height: 20px;
+  color: hsl(228, 12%, 48%);
 }
 
 .prices {
@@ -63,6 +67,7 @@ p {
 
 #og-price {
   text-decoration: line-through;
+  color: hsl(228, 12%, 48%);
 }
 
 #perfume {
@@ -78,4 +83,13 @@ p {
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 10px;
+}
+
+/* Larger Screen Styles (600px) */
+@media (min-width: 600px) {
+  .card {
+    flex-direction: row;
+    width: -moz-max-content;
+    width: max-content;
+  }
 }/*# sourceMappingURL=index.css.map */
