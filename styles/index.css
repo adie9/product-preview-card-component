@@ -72,6 +72,7 @@ p {
 
 #perfume {
   font-family: montserrat;
+  color: hsl(228, 12%, 48%);
 }
 
 .cart {
@@ -89,7 +90,28 @@ p {
 @media (min-width: 600px) {
   .card {
     flex-direction: row;
-    width: -moz-max-content;
-    width: max-content;
+    width: 800px;
+    flex-basis: 50%;
+    margin: 4rem auto;
+  }
+  #perfume-image {
+    width: 100%;
+  }
+  h2 {
+    font-size: 4rem;
+  }
+  h4 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 2rem;
+  }
+  .picture {
+    width: 50%;
+    flex: 1;
+  }
+  .card-description {
+    width: 50%;
+    flex: 1;
   }
 }/*# sourceMappingURL=index.css.map */

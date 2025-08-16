@@ -22,7 +22,11 @@
 <body>
 
   <div class="card">
-    <img id="perfume_image" src="./images/image-product-mobile.jpg" alt="perfume">
+    
+    <picture class="picture">
+      <source srcset="./images/image-product-desktop.jpg" media="(min-width: 600px)">
+      <img id="perfume_image" srcset="./images/image-product-mobile.jpg 700w, ./images/image-product-desktop.jpg 600w" src="./images/image-product-mobile.jpg" alt="perfume">
+    </picture>
     
     <section class="card-description">
         <h4 id="perfume">Perfume</h4>

@@ -29,7 +29,7 @@ p {
 .card {
     display: flex;
     flex-direction: column;
-    background-color: hsl(0, 0%, 100%);
+    background-color: $white;
     border-radius: 10px;
     margin: 20px;
     font-family: Fraunces;
@@ -45,7 +45,7 @@ p {
     p {
         font-family: montserrat;
         line-height: 20px;
-        color: hsl(228, 12%, 48%);
+        color: $grey;
     }
 }
 
@@ -63,26 +63,27 @@ p {
 }
 
 #discount-price {
-    color: hsl(158, 36%, 37%);
+    color: $green-500;
     font-size: 2em;
     font-weight: 700;
 }
 
 #og-price {
     text-decoration: line-through;
-    color: hsl(228, 12%, 48%);
+    color: $grey;
 }
 
 #perfume {
     font-family: montserrat;
+    color: $grey;
 }
 
 .cart {
     display: block;
-    background-color: hsl(158, 36%, 37%);
+    background-color: $green-500;
     width: 100%;
     margin: auto;
-    color: hsl(0, 0%, 100%);
+    color: $white;
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 10px;
@@ -93,7 +94,36 @@ p {
 @media (min-width: 600px) {
     .card {
         flex-direction: row;
-        width: max-content;
-        
+        width: 800px;
+        flex-basis: 50%;
+        margin: 4rem auto;
     }
+
+    #perfume-image {
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 4rem;
+    }
+
+    h4 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 2rem;
+    }
+
+    .picture {
+        width: 50%;
+        flex: 1;
+    }
+
+    .card-description {
+        width: 50%;
+        flex: 1;
+    }
+
+   
 }
