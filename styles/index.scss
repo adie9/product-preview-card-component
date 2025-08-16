@@ -99,20 +99,30 @@ p {
         margin: 4rem auto;
     }
 
-    #perfume-image {
+    #perfume-image, .picture {
         width: 100%;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
     }
 
     h2 {
-        font-size: 4rem;
+        font-size: 3rem;
     }
 
     h4 {
-        font-size: 2rem;
+        font-size: 1rem;
     }
 
     p {
-        font-size: 2rem;
+        font-size: 1.5rem;
+    }
+
+    #discount-price {
+        font-size: 3rem;
+    }
+
+    #perfume {
+        font-size: 1.3rem;
     }
 
     .picture {
@@ -123,6 +133,15 @@ p {
     .card-description {
         width: 50%;
         flex: 1;
+       
+
+        p {
+            line-height: 2rem;
+        }
+    }
+
+    .cart {
+        font-size: 1.3rem;
     }
 
    
