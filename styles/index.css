@@ -95,6 +95,10 @@ p {
   border-radius: 10px;
   -moz-column-gap: 0.8rem;
        column-gap: 0.8rem;
+  cursor: pointer;
+}
+.cart:hover {
+  background-color: hsl(158, 42%, 18%);
 }
 
 /* Larger Screen Styles (600px <) */

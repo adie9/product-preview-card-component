@@ -97,8 +97,11 @@ p {
     padding-bottom: 15px;
     border-radius: 10px;
     column-gap: 0.8rem;
+    cursor: pointer;
     
-    
+    &:hover {
+        background-color: $green-700;
+    }
 }
 
 
